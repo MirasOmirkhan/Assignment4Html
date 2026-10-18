@@ -22,10 +22,8 @@
                         <h2 class="fw-bold mb-0">Book a train ticket</h2>
                     </div>
                     
-                    <!-- Тело формы -->
                     <div class="card-body p-4 p-md-5">
                         <form>
-                            <!-- Переключатели направления (One way / Round trip) -->
                             <div class="mb-4">
                                 <div class="trip-switch d-inline-flex p-1 rounded-pill">
                                     <input type="radio" class="btn-check" name="tripType" id="oneWay" autocomplete="off" checked>
@@ -36,7 +34,6 @@
                                 </div>
                             </div>
 
-                            <!-- Поля Откуда и Куда -->
                             <div class="row g-3 mb-3">
                                 <div class="col-md-6">
                                     <label for="fromCity" class="form-label text-muted small fw-semibold">From</label>
@@ -48,7 +45,6 @@
                                 </div>
                             </div>
 
-                            <!-- Дата отправления, возвращения и пассажиры -->
                             <div class="row g-3 mb-3">
                                 <div class="col-md-4">
                                     <label for="departureDate" class="form-label text-muted small fw-semibold">Departure</label>
@@ -71,7 +67,6 @@
                                 </div>
                             </div>
 
-                            <!-- Класс вагона (Радиокнопки) -->
                             <div class="mb-4">
                                 <label class="form-label text-muted small fw-semibold d-block">Carriage class</label>
                                 <div class="d-flex flex-wrap gap-4 mt-2">
@@ -90,7 +85,6 @@
                                 </div>
                             </div>
 
-                            <!-- Телефон и Email -->
                             <div class="row g-3 mb-4">
                                 <div class="col-md-6">
                                     <label for="phone" class="form-label text-muted small fw-semibold">Phone</label>
@@ -105,7 +99,6 @@
                                 </div>
                             </div>
 
-                            <!-- Чекбоксы соглашений -->
                             <div class="mb-4">
                                 <div class="form-check mb-2">
                                     <input class="form-check-input" type="checkbox" id="smsCheck">
@@ -121,7 +114,6 @@
                                 </div>
                             </div>
 
-                            <!-- Кнопки управления (на мобильных Find trains выше Clear через flex order) -->
                             <div class="d-flex flex-column flex-md-row justify-content-end gap-3 mt-4">
                                 <button type="reset" class="btn btn-light rounded-pill px-5 py-3 fw-semibold order-2 order-md-1 clear-btn">Clear</button>
                                 <button type="submit" class="btn rounded-pill px-5 py-3 fw-semibold text-white order-1 order-md-2 submit-btn" style="background-color: #F2A93B;">Find trains</button>
